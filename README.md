@@ -30,7 +30,7 @@ console.log(typeof {name: "Adam", age: 23});
 // Object
 ```
 
-### Type Coercion
+#### Type Coercion
 
 When an operator is applied to a *wrong* type of value, Javascript quietly converts it to appropriate type it needs using a set of predefined rules.
 
@@ -42,7 +42,7 @@ console.log("100" * 1);
 // NaN
 ```
 
-### Operators
+#### Operators
 
 Standard de facto operators found in most of the programming languages 
 
@@ -52,7 +52,7 @@ Standard de facto operators found in most of the programming languages
 
 - **Comparison** **(** > < == != === !== >= <= **)**
 
-### Short Circuiting of Logical Operators
+#### Short Circuiting of Logical Operators
 
 This concept can be used as a fallback mechanism for default values.
 
@@ -87,7 +87,7 @@ A **Statement** is a declaration that stands on its own and can affect the state
 
 The collection of *bindings* and *statements* at a given time is known as an **Environment**.
 
-### Bindings
+#### Bindings
 
 Bindings are like tentacles of an octopus, they just hold onto some values not contain them. Two bindings can refer to the same value.
 
@@ -108,7 +108,7 @@ PI = 3.9999
 // TypeError : Reassigning a const binding is not allowed
 ```
 
-### Control Flow
+#### Control Flow
 
 Control flow can be changed using any of the following :-
 - Conditional Execution
@@ -119,7 +119,7 @@ Control flow can be changed using any of the following :-
     - do-while loop
     - for loop
 
-### Comments
+#### Comments
 
 ```Javascript
 // Single Line Comments
