@@ -75,3 +75,59 @@ console.log(0 && 1);
 
 Similarly, **false && X** - will return false without evaluating X
 
+## Chapter Two
+
+### Program Structure
+
+***
+
+Any partial code fragment that returns a value is an **Expression**.
+
+A **Statement** is a declaration that stands on its own and can affect the state of a machine.
+
+The collection of *bindings* and *statements* at a given time is known as an **Environment**.
+
+### Bindings
+
+Bindings are like tentacles of an octopus, they just hold onto some values not contain them. Two bindings can refer to the same value.
+
+```Javascript
+let a = "Something";
+console.log(a);
+// Something
+
+var b;
+console.log(b);
+// undefined
+
+const PI = 3.14159
+console.log(pi);
+// 3.14159
+
+PI = 3.9999 
+// TypeError : Reassigning a const binding is not allowed
+```
+
+### Control Flow
+
+Control flow can be changed using any of the following :-
+- Conditional Execution
+    - if-else
+    - switch-case
+- Loops
+    - while loop
+    - do-while loop
+    - for loop
+
+### Comments
+
+```Javascript
+// Single Line Comments
+
+/*  This
+    is 
+    a
+    multi-line
+    comment
+*/
+```
